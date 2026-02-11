@@ -169,8 +169,7 @@ export default function RoulettePage() {
     <main className="min-h-[100dvh] bg-[#F1F3F5] flex flex-col items-center justify-between p-6 select-none relative font-sans text-slate-800">
       
       {/* 背景パターン */}
-      <div className="fixed inset-0 pointer-events-none opacity-[0.03] z-0" style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', size: '20px 20px' }}></div>
-
+      <div className="fixed inset-0 pointer-events-none opacity-[0.03] z-0" style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
       {/* ヘッダー */}
       <header className="w-full max-w-lg flex justify-between items-center z-10 pt-4">
         <div className="flex items-center gap-2">
